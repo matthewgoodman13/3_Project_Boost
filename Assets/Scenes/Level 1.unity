@@ -127,6 +127,75 @@ Light:
     type: 3}
   m_PrefabInstance: {fileID: 8754454419741338871}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1424945716
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6763909900671877346, guid: 08239114795449549a70257e0d6e5ffa,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763909900671877346, guid: 08239114795449549a70257e0d6e5ffa,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763909900671877346, guid: 08239114795449549a70257e0d6e5ffa,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763909900671877346, guid: 08239114795449549a70257e0d6e5ffa,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763909900671877346, guid: 08239114795449549a70257e0d6e5ffa,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763909900671877346, guid: 08239114795449549a70257e0d6e5ffa,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763909900671877346, guid: 08239114795449549a70257e0d6e5ffa,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763909900671877346, guid: 08239114795449549a70257e0d6e5ffa,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763909900671877346, guid: 08239114795449549a70257e0d6e5ffa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763909900671877346, guid: 08239114795449549a70257e0d6e5ffa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763909900671877346, guid: 08239114795449549a70257e0d6e5ffa,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763909900671877347, guid: 08239114795449549a70257e0d6e5ffa,
+        type: 3}
+      propertyPath: m_Name
+      value: Rocket Ship
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 08239114795449549a70257e0d6e5ffa, type: 3}
 --- !u!1001 &5345681233294727659
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -172,7 +241,7 @@ PrefabInstance:
     - target: {fileID: 5345681231976452547, guid: af749b1dac27bca43b6f5deb5685838b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5345681231976452547, guid: af749b1dac27bca43b6f5deb5685838b,
         type: 3}
@@ -241,7 +310,7 @@ PrefabInstance:
     - target: {fileID: 8754454419305324140, guid: bbee30ee6c11a664c8438f4aa3ab5e99,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8754454419305324140, guid: bbee30ee6c11a664c8438f4aa3ab5e99,
         type: 3}
@@ -310,7 +379,7 @@ PrefabInstance:
     - target: {fileID: 1254821022262341936, guid: cbd9aabb6d94bdd43b3555c3f3ccdd0e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1254821022262341936, guid: cbd9aabb6d94bdd43b3555c3f3ccdd0e,
         type: 3}
@@ -327,6 +396,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2361690548248081939, guid: cbd9aabb6d94bdd43b3555c3f3ccdd0e,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b995521cbe356174caf51b66543ebeec, type: 2}
     - target: {fileID: 2726427187340855632, guid: cbd9aabb6d94bdd43b3555c3f3ccdd0e,
         type: 3}
       propertyPath: m_Name
